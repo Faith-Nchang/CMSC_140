@@ -1,25 +1,11 @@
-/*
- * Class: CMSC140 40020
- * Instructor: Gary Thai
- * Project 4
- * Description: This program computes the number of days each employee of a company is absent
-              and the average days of absent by all the employees and writes the value to an output file
- * Due Date: 7/23/2023
- * I pledge that I have completed the programming assignment independently.
-   I have not copied the code from a student or any source.
-   I have not given my code to any student.
-   Print your Name here: Faith Nchang
-*/
 
 #include <iostream>
 #include <iomanip>
 #include <fstream>
 using namespace std;
 
-//global variable of type ofstream used to write to a file
 ofstream outputFile;
 
-//global constant variables
 const int MIN_NUMBER_Of_EMPLOYEES = 1,
           MIN_EMPLOYEE_ID = 1,
           MAX_EMPLOYEE_ID = 9999,
