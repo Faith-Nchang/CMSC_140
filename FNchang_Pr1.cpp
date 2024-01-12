@@ -1,15 +1,4 @@
-/*
- * Class: CMSC140 40020
- * Instructor: Gary Thai
- * Project  1
- * Description: This program is intended to write a greeting script for a robot computer 
-                in order for the robot to interact with a visitor human.
- * Due Date: 6/18/23
- * I pledge that I have completed the programming assignment independently.
-   I have not copied the code from a student or any source.
-   I have not given my code to any student.
-   Print your Name here: Faith Nchang
-*/
+
 
 #include <iostream>
 #include <string>
@@ -18,23 +7,21 @@ using namespace std;
 
 int main() 
 {
-  // variables that do no change all through the program
-  const string ROBOTNAME = "Nao", //name of Robot
-               PROGRAMMERNAME = "Faith Fru Nchang", //my name
-               DUEDATE = "6/18/23"; //Assignment due date
+  const string ROBOTNAME = "Nao", 
+               PROGRAMMERNAME = "Faith Fru Nchang", 
+               DUEDATE = "6/18/23"; 
                
   const int DAYSPERMONTH = 30, 
-            GOLDFISHYEAR = 5,   // if the user inputs the age of a pet(goldfish or dog),
-            DOGAGE = 7,         //these variables are used to convert the age to human age
+            GOLDFISHYEAR = 5,   
+            DOGAGE = 7,         
             ASSIGNMENTNUMBER = 1,
             MONTHSPERYEAR = 12,
             HOURSPERDAY = 24,
             MINUTESPERHOUR = 60,
             SECONDSPERMINUTE = 60;
 
-  //variables whose values change 
-  string userName = " "; //name of the user
-  int age; // stores person's or pet's age
+  string userName = " ";
+  int age; 
   
 
   /*variables used in computation
@@ -42,26 +29,25 @@ int main()
   days, hours, minutes, and seconds */
   int monthsInAge, daysInAge, hoursInAge, minutesInAge, secondsInAge;
 
-  //if it's a dog's age, converts it to human age
+  //if it's a dog's age, converts it to human age 
   int dogAgeInHuman;
   //if it's a gold fish's age, converts it to human age
   int goldFishAgeInHuman;
 
-  //variables used in the 2nd game
   int number1, number2;
 
 
 
   cout << "**************** Robot Prototype Scripting ******************** \n\n";
   cout <<"Hello, welcome to Montgomery College! My name is " << ROBOTNAME << ". May I have your name? \n";
-  // stores the userInput in the userName variable
   getline(cin, userName); 
   
   cout << "Nice to have you with us today, " << userName <<"!\n";
   cout << "Let me impress you with a small game. \n";
   cout << "Give me the age of an important person or a pet to you. \n";
   cout << "Please give me only a number: \n";
-  cin >> age; // stores the userinput into the age variable
+  cin >> age; 
+  // clears the buffer
   cin.ignore(20, '\n');
    
 
