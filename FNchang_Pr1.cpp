@@ -1,4 +1,6 @@
-
+/*
+  CMSC140 Project 4
+*/
 
 #include <iostream>
 #include <string>
@@ -14,7 +16,6 @@ int main()
   const int DAYSPERMONTH = 30, 
             GOLDFISHYEAR = 5,   
             DOGAGE = 7,         
-            ASSIGNMENTNUMBER = 1,
             MONTHSPERYEAR = 12,
             HOURSPERDAY = 24,
             MINUTESPERHOUR = 60,
@@ -88,9 +89,7 @@ int main()
   cout << "however, the result of " << fixed << setprecision(1) << showpoint << double(number1) << " / " << static_cast<double>(number2) <<" is about "<< double(number1) / static_cast<double>(number2) <<".\n\n";
   cout << "Thank you for testing my program!! \n";
   cout << "PROGRAMMER: " << PROGRAMMERNAME << endl;
-  cout << "CMSC140 Common Project " << ASSIGNMENTNUMBER << endl;
-  cout << "Due Date: " << DUEDATE << endl;
-
+  
 
 
   return 0;
