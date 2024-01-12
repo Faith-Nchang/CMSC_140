@@ -1,3 +1,6 @@
+/*
+  CMSC140 Project 4
+*/
 
 #include <iostream>
 #include <string>
@@ -137,8 +140,7 @@ int main()
     
 
     cout << "Programmer: Faith Nchang\n";
-    cout << "CMSC140 Project 2\n";
-    cout << "Due Date: 6/25/23";
+   
 
     return 0;
 }
