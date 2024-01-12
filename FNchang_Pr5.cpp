@@ -1,13 +1,6 @@
-/*
- * Class: CMSC140 40020
- * Instructor: Gary Thai
- * Project 5
- * Description: The Lo Shu Magic Square
- * Due Date: 8/6/23
- * I pledge that I have completed the programming assignment independently.
-   I have not copied the code from a student or any source.
-   I have not given my code to any student.
-   Print your Name here: Faith Nchang 
+
+ /*
+  CMSC140 Project 4
 */
 
 #include <iostream>
@@ -15,10 +8,10 @@
 using namespace std;
 
 // Global constants 
-const int ROWS = 3;  // The number of rows in the array
-const int COLS = 3;  // The number of columns in the array
-const int MIN = 1;  // The value of the smallest number
-const int MAX = 9;  // The value of the largest number
+const int ROWS = 3;  
+const int COLS = 3;  
+const int MIN = 1;  
+const int MAX = 9;  
 
 // Function prototypes
 bool isMagicSquare(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size);
@@ -61,9 +54,7 @@ int main()
     cin >> shouldContinue;
   }   
 
-  cout << "\nName: Faith Nchang\n";
-  cout << "Project number: 5\n";
-  cout << "Due Date: 8/6/2023\n";
+
   return 0;
 
 }
