@@ -1,15 +1,4 @@
-/*
- * Class: CMSC140 40020
- * Instructor: Gari Thai
- * Project 3
- * Description: This program  calculates the occupancy rate and the total hotel income for
-                one night  of a hotel and displays this information as well as  other information on the screen
- * Due Date: 7/9/23
- * I pledge that I have completed the programming assignment independently.
-   I have not copied the code from a student or any source.
-   I have not given my code to any student.
-   Print your Name here: Faith Nchang
-*/
+
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -18,32 +7,32 @@ using namespace std;
 int main()
 {
   /*************  Variable declarations***********************/
-  const int PRICEPERSINGLEROOM = 60, // price rate of a single room
-            PRICEPERDOUBLEROOM = 80, // price rate for a double room
-            PRICEPERKINGROOM = 120, // price rate for a king room
-            PRICEPERSUITEROOM = 150, // price rate for a suite room
-            MINNUMBEROFFLOORS = 1, // min # of floors the hotel can have
-            MAXNUMBEROFFLOORS = 5, // max # of floors the hotel can have
-            MAXROOMSPERFLOOR = 30, // rooms per floor can not exceed 30
-            MINROOMSPERFLOOR = 1, // rooms per floor can not be less than 1
+  const int PRICEPERSINGLEROOM = 60, 
+            PRICEPERDOUBLEROOM = 80, 
+            PRICEPERKINGROOM = 120, 
+            PRICEPERSUITEROOM = 150,
+            MINNUMBEROFFLOORS = 1, 
+            MAXNUMBEROFFLOORS = 5, 
+            MAXROOMSPERFLOOR = 30, 
+            MINROOMSPERFLOOR = 1, 
             ASSIGNMENTNUMBER = 3;
           
-  string hotelLocation; // stores the hotels locatio
-  int totalNumberOfFloors, // stores the number of floors in the hotel
-      numberOfRoomsPerFloor, // stores the number of rooms in each floor
-      numberOfOccupiedRooms = 0, //run total of rooms that are not empty
-      numberOfUnoccupiedRooms, //  total # of empty rooms
-      numberOfSingleRooms, // single room in a particular floor
-      numberOfDoubleRoom, //double rooms per floor
-      numberOfKingRooms, // king rooms per flor
-      numberOfSuiteRooms, // suite rooms per floor
-      totalNumberOfRooms = 0; //stores the run total of the total # of rooms in the hotel
-  double totalHotelIncome, // income hotel makes per night
-         occupancyRate = 0, // stores the # of occupied rooms relative to the total # of rooms in %
-         incomePerSingleRoom, //income hotel makes from single room
-         incomePerDoubleRoom, //income hotel makes from double room
-         incomePerKingRoom,//income hotel makes from king room
-         incomePerSuiteRoom;//income hotel makes from suite room
+  string hotelLocation; 
+  int totalNumberOfFloors, 
+      numberOfRoomsPerFloor, 
+      numberOfOccupiedRooms = 0, 
+      numberOfUnoccupiedRooms, 
+      numberOfSingleRooms, 
+      numberOfDoubleRoom, 
+      numberOfKingRooms, 
+      numberOfSuiteRooms, 
+      totalNumberOfRooms = 0; 
+  double totalHotelIncome, 
+         occupancyRate = 0, 
+         incomePerSingleRoom, 
+         incomePerDoubleRoom, 
+         incomePerKingRoom,
+         incomePerSuiteRoom;
   int floorNumber; //initialization variable used in the for-loop to determine the current floor number
   /***********************************************************/
 
@@ -178,8 +167,7 @@ int main()
  
   cout << "\n\nThank you for testing my program.\n";
   cout << "Programmer: Faith Nchang\n";
-  cout << "CMSC140 Common Project " <<ASSIGNMENTNUMBER << endl;
-  cout << "Due Date: 7/9/23";
+ 
   return 0;
 
 }
