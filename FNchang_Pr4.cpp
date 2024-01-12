@@ -52,8 +52,6 @@ int main()
   
   cout << "\nThank you for testing my program.\n";  
   cout << "Programmer: Faith Nchang\n";
-  cout << "CMSC140 common project 4\n";
-  cout << "Due Date: 7/23/2023\n";
 
   return 0;
 
