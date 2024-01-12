@@ -1,15 +1,4 @@
-/*
- * Class: CMSC140 40020
- * Instructor: Gary Thai
- * Project 2
- * Description: This program is intended to converts the temperature, distance, weight, and currency
-                to another unit based on a user's choice from a menu
- * Due Date: 6/25/23
- * I pledge that I have completed the programming assignment independently.
-   I have not copied the code from a student or any source.
-   I have not given my code to any student.
-   Print your Name here: Faith Nchang 
-*/
+
 #include <iostream>
 #include <string>
 #include <iomanip>
